@@ -1,0 +1,232 @@
+@charset "UTF-8";
+/* CSS Document */
+
+p{
+	font-family: Helvetica, Geneva, "Times New Roman";
+	font-size: 62.5%;
+}
+
+.navbar-default {
+    background-color: #EAF4FA;
+    border-color: #EAF4FA;
+}
+
+#SectionHome, #SectionOne, #SectionTwo, #SectionThree, #SectionFour{
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+#SectionHome{
+display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; 
+  
+    -webkit-box-align : center;
+  -webkit-align-items : center;
+       -moz-box-align : center;
+       -ms-flex-align : center;
+          align-items : center;
+  
+  width: 100%;
+  
+         -webkit-box-pack : center;
+            -moz-box-pack : center;
+            -ms-flex-pack : center;
+  -webkit-justify-content : center;
+          justify-content : center;
+}
+
+	
+#SectionHome{
+	min-height: 100vh;
+	background-color:#EAF4FA;
+}
+
+#toplogo{
+	display: flex;
+	align-content: center;
+}
+
+#SectionOne{
+	min-height: 100vh;
+	background-color: #EAF4FA;
+}
+
+#faceIcon{
+	padding: 20px;
+}
+
+#SectionTwo{
+	min-height: 100vh;
+	background-color: #EAF4FA;
+}
+
+#SectionThree{
+	min-height: 100vh;
+	background-color: #EAF4FA;
+	padding-bottom: 10px;
+}
+
+#imageplay{
+	width: 60%;
+}
+#imagedraw{
+	width: 50%;
+	padding-top: 10px;
+}
+
+.researchimages{
+	width: 100%;
+	padding: 10px;
+}
+
+#SectionFour{
+	min-height: 100vh;
+	background-color: #EAF4FA;
+}
+
+#researchimage img {
+	width: 60%;
+}
+
+/*
+#reimage{
+	display: inline-block;
+	margin-top: 10%;
+	vertical-align: middle;
+	float: none;
+}
+*/
+
+/* Large Desktops*/
+@media (min-width: 1200px){
+	p{
+		font-size: 1.1em;
+	}
+	
+	#SectionFour, #SectionThree{
+		padding-left: 50px;
+		
+	}
+	
+	#SectionTwo{
+		padding-right: 50px;
+	}
+	
+	#SectionOne, #SectionTwo, #SectionThree, #SectionFour{
+		background-color: white;
+		background-image: url(../Images/BackgroundLogo.png);
+		background-size: 150%;
+		background-position: center left;
+		background-repeat: no-repeat;
+	}
+	
+	#SectionHome, #SectionOne, #SectionTwo, #SectionThree, #SectionFour{
+display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; 
+  
+    -webkit-box-align : center;
+  -webkit-align-items : center;
+       -moz-box-align : center;
+       -ms-flex-align : center;
+          align-items : center;
+  
+  width: 100%;
+
+         -webkit-box-pack : center;
+            -moz-box-pack : center;
+            -ms-flex-pack : center;
+  -webkit-justify-content : center;
+          justify-content : center;
+	}
+	
+	.navbar-default {
+	border-bottom: black 1px dotted;
+	}
+
+}
+
+
+/* Landscape tablets and medium desktops*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	p{
+		font-size: 1.2em;
+	}
+	
+	#SectionFour, #SectionThree{
+		padding-left: 50px;
+	}
+	
+	#SectionTwo{
+		padding-right: 50px;
+	}
+	
+	#SectionOne, #SectionTwo, #SectionThree, #SectionFour{
+		background-color: white;
+		background-image: url(../Images/BackgroundLogo.png);
+		background-size: 150%;
+		background-position: center left;
+		background-repeat: no-repeat;
+	}
+	
+	#SectionHome, #SectionOne, #SectionTwo, #SectionThree, #SectionFour{
+		display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; 
+  
+    -webkit-box-align : center;
+  -webkit-align-items : center;
+       -moz-box-align : center;
+       -ms-flex-align : center;
+          align-items : center;
+  
+  width: 100%;
+
+         -webkit-box-pack : center;
+            -moz-box-pack : center;
+            -ms-flex-pack : center;
+  -webkit-justify-content : center;
+          justify-content : center;
+	}
+	
+	.navbar-default {
+	border-bottom: black 1px dotted;
+	}
+}
+
+
+/*Portrait tablets and small desktops*/
+@media (min-width: 768px) and (max-width: 991px){
+	p{
+		font-size: 1.1em;
+	}
+	
+	.navbar-default {
+	border-bottom: black 1px dotted;
+	}
+}
+
+
+/*Landcape phones and protrait tablets*/
+@media (min-width: 481px) and (max-width: 767px){
+	p{
+		font-size: 1.1em;
+	}
+
+}
+
+
+/* Portrait phones and smaller*/
+@media (max-width: 480px){
+	p{
+		font-size: 1.1em;
+	}
+
+}

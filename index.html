@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="CSS/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="CSS/StyleSheet.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PLAYlive</title>
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#SectionHome"><img id="toplogo" src="Images/Logo.png" width="30px"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#SectionOne" class="xlink">Challenge </a></li>
+        <li><a href="#SectionTwo" class="xlink">Functionality</a></li>
+        <li><a href="#SectionThree" class="xlink">Wireframes</a></li>
+        <li><a href="#SectionFour" class="xlink">Background Research</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="SectionHome">
+	<img id="logo" src="Images/PLAYLogo.png" width="70%" class="img-responsive center-block">
+</div>
+
+<div class="container-fluid" id="SectionOne">
+	<div class="col-md-10" align="justify">
+		<h2>CHALLENGE </h2>
+		<p>Museums and galleries often have large collections with a great number of pieces that they are unable to display to due limited floor space. Finding a way to make these pieces in the archives with limited access from the public more accessible to the museum visitors would allow more exposure of the pieces to a wider audience that may otherwise not know about them. </p>
+		<p> PLAYlive aims to provide digital solution in order to create a powerful digital experience to audiences wherever they are; The platform will enable the user to learn, to be entertained, to contribute and to share their experiences. It will create a playful, fun way for museum visitors to experience some of the archived items in the museum collections. Using mobile media to attract and involve the audience in experiencing the archive pieces will create a personal connection to the archives in a fun and interactive way. </p>
+		<p> This interactive exhibit includes two main digital features; facePLAY, a facial recognition digital experience and drawPLAY, a drawing recognition digital experience. <br> facePLAY allows the user to photograph their face and then uses facial recognition technologies to search through the archive pieces. The user will be presented with a portrait from the archives that resembles them alongside their own photo. This resemblance piece will be projected in a large scale onto a wall for other visitors to the museum to see. <br> drawPLAY works in much the same way with the user creating a drawing which then uses image recognition to search through the archives to project a piece of artwork which resembles what the user has drawn. 
+		</p>
+		<p>PLAYlive creates a solution to allow visitors to a museum to further engage with the artworks while allowing them to interact with the pieces and to create a personal connection to some of the pieces in the archives in a playful and fun way.
+		</p>
+	</div>
+</div>
+
+<div class="container-fluid" id="SectionTwo">
+	<div class="col-md-6" align="center">
+	<img id="faceIcon" src="Images/FaceRec.png" width="60%">
+	</div>
+	<div class="col-md-6 " align="justify">
+		<h2>FUNCTIONALITY</h2>
+		<p>The two PLAYlive applications would be presented to the user on a tablet with a simple, easy to use interface. The user would simply take a photo of their face on facePLAY which would use a Computer Vision Libraries JavaScript such as trackingjs or betaface to recognise the face. This API would be linked to the DigitalNZ API to search through the digital archives to find a face match to display as a result. <br> drawPLAY would work in a similar way but instead of using facial recognition technologies, the trackingjs API has the ability to recognise the drawn image to then link to the DigitalNZ API and to find a similar image in the digital archives to display. </p>
+		<p>https://trackingjs.com/ <br> https://digitalnz.org/developers <br> https://www.betafaceapi.com/wpa/
+		</p>
+	</div>
+</div>
+<div class="container-fluid" id="SectionThree">
+	<div class="col-md-6 " align="justify">
+		<h2>WIREFRAMES</h2>
+		<p>The interfaces of the PLAYlive applications will be easy to use and intuitive. It will allow users with a range of technological abilities to be able to use the applications with ease. </p>
+		<p>The facePLAY application will have a home screen of the tablet camera facing the user with a circular button in the middle of the screen instructing the user to take a photo of their face. Once a photo has been taken, a load screen will appear until the result is projected in high quality onto the wall. The application screen will then pop up with the photo alongside the facial result with the option for the user to input their email address to send to themselves with options to share onto social media. <br> The drawPLAY application will have a home screen of a blank canvas with the drawing options such as pens, colours and stamps on a sidebar. Once the drawing has been submitted and the result projected on to the wall, a similar pop up screen will display the users drawing and the result with the options for the users email and social media sharing.
+		</p>
+		<p>The interface needs to be inviting for people of all abilities to be able to use the applications with ease and enjoy the experience. This interactive exhibit could be located in its own room with a large opening to allows visitors to the museum to be enticed to participate. facePLAY and drawPLAY could be set up on opposite sides of the room with the results being displayed largely side-by-side on the wall opposite the entrance allowing passers-by to see what is going on.
+		</p>
+	</div>
+	<div id="wireimages" class="col-md-6" align="center">
+		<img id="imageplay" src="Images/facePLAY2.png"> <img id="imagedraw" src="Images/drawPLAY2.png">
+	</div>
+</div>
+<div class="container-fluid" id="SectionFour">
+	<div class="col-md-6 " align="justify">
+		<h2>BACKGROUND RESEARCH</h2>
+		<p> The Cleveland Museum of Art have created an interactive experience with the aim to involve visitors of all ages and technological capabilities in a fun and exciting way. Gallery One makes use of technologies such as augmented reality and Kinect for create their experiences. 
+		</p>
+		<p> Gallery One includes Studio Play which was designed by the American studio Design I/O. Studio play includes many different interactive exhibits using as body movements to connect to the collection and reveal and zoom into artworks in great detail displays on large walls of 4k video screens. Gallery One also includes digital exhibits titled Pottery Wheel, Collage Maker, Portrait Maker, and Paint play which use interactive technologies.
+		</p>
+		<p>New York design studio Local Projects worked on a number of the exhibits in Gallery One. They created a forty-foot touch screen video wall displaying 4,000 works at any given time along with several smaller installations. Browse with your Face uses facial recognition search through the collection to find a piece of artwork which is showing a similar expression to the user. Strike a Pose involves Kinect sensors rating a user’s pose in comparison to the displayed artwork. Search by Line involves users drawing a line or shape to find an artwork in the collection with a similar geometry.
+		</p>
+		<p>These interactive exhibits were successfully introduced into the Cleveland Museum of Art in order to provide visitors opportunities to learn experientially through interactive technologies and create a personal connection to the collection.
+		</p>
+		<p>http://www.clevelandart.org/gallery-one <br> http://localprojects.net/work/cleveland-museum-of-art-gallery-one <br> http://design-io.com/projects/StudioPlay/
+		</p>
+	</div>
+	<div id="reimage" class="col-md-6 d-flex align-items-center" align-self="center">
+	<img class="researchimages" src="Images/I:O.png">
+	<img class="researchimages" src="Images/LocalProjects.png" >
+	</div>
+</div>
+
+<script src="JS/jquery-3.2.0.min.js"></script>
+<script src="JS/bootstrap.js"></script>
+<script>
+$(document).ready(function(){
+	
+	$('.xlink').on('click', function(){
+    $('.navbar-toggle').click()
+});
+	
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        window.location.hash = hash;
+      });
+    } 
+  });
+	
+});
+	
+</script>
+</body>
+
+<!--
+References
+https://jsfiddle.net/hashem/ut5sbqvz/
+https://thenounproject.com/search/?q=face%20recognition&i=585616
+https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_animate_smoothscroll
+-->
+
+</html>
